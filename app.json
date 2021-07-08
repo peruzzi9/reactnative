@@ -10,9 +10,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -25,8 +22,7 @@
         "backgroundColor": "#FFFFFF"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    
+    "sdkVersion": "39.0.0", "platforms": [ "ios", "android" ]
   }
 }
