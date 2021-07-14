@@ -1,3 +1,7 @@
+# === 14/07/2021 2 ===
+# import style from file/styleObject 
+- move styles from app file to specific styleObject file styles.js
+
 # === 14/07/2021 1 ===
 # Responsive styling 
 - make responsive layout using ( flex / flexDirection / alignItems/ justifyContent ) 
