@@ -1,3 +1,6 @@
+# === 14/07/2021 1 ===
+# Responsive styling 
+- make responsive layout using ( flex / flexDirection / alignItems/ justifyContent ) 
 
 # === 13/07/2021 1 ===
 # Define Styles example
