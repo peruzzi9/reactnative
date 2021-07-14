@@ -1,3 +1,9 @@
+# === 14/07/2021 3 ===
+# using routes between pages (react-router-native)
+- npm install react-router-native
+- simple link/route example home/about pages
+- create Home/About components as pages .
+
 # === 14/07/2021 2 ===
 # import style from file/styleObject 
 - move styles from app file to specific styleObject file styles.js

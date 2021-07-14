@@ -85,4 +85,14 @@ export default styles=StyleSheet.create({
       alignItems: "center",
       justifyContent: "center",
     },
+    nav: { 
+      height: 30,
+      flexDirection: "row",
+      justifyContent: "space-evenly"
+    },
+    navItem: {
+      flex: 1,
+      alignItems: "center",
+      padding: 1
+    },
   })

@@ -1,14 +1,31 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { StyleSheet, Text, Button, View, Pressable } from "react-native";
-import styles from './styles';
+import styles from './styles'; 
+
+import { NativeRouter, Route, Link } from "react-router-native";
+import  Home  from "./components/Home";
+import  About  from "./components/About";
 
 export default function App() {
   let [counter, setcounter] = useState(0);
   let [displayResponsive, setdisplayResponsive] = useState(false);
 
   return !displayResponsive ? (
+    <NativeRouter>
     <View style={styles.container}>
+      <View style={styles.nav}>
+         <Link to="/" underlayColor="#f0f4f7" style={styles.navItem}>
+          <Text>Home</Text>
+        </Link>
+        <Link to="/about" underlayColor="#f0f4f7"style={styles.navItem} >
+          <Text>About</Text>
+        </Link> 
+      </View>
+
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+
       <Text style={styles.text}>Counter Value is !.... {counter} </Text>
       <Button
         onPress={() => setcounter(++counter)}
@@ -38,6 +55,7 @@ export default function App() {
 
       <StatusBar style="auto" />
     </View>
+    </NativeRouter>
   ) : (
     <View style={styles.body}>
       <View style={styles.header}>
