@@ -1,3 +1,7 @@
+# === 15/07/2021 1 ===
+# using routes between pages 2
+- moveing counter and responsive code into seperate pages with routes to make app.js more clear and clean code .
+
 # === 14/07/2021 3 ===
 # using routes between pages (react-router-native)
 - npm install react-router-native

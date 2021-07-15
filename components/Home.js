@@ -1,6 +1,6 @@
 
 import React from "react";
 import styles from '../styles';
-import { Text } from "react-native";
+import { Text ,View } from "react-native";
 
-export default Home = () => <Text style={styles.text}>Home</Text>;
+export default Home = () => <View style={styles.container}><Text style={styles.text}>Home</Text></View>;

@@ -86,9 +86,12 @@ export default styles=StyleSheet.create({
       justifyContent: "center",
     },
     nav: { 
-      height: 30,
+      backgroundColor: "#aaffff",
+      alignItems:'flex-end',
+      height: 20,
       flexDirection: "row",
-      justifyContent: "space-evenly"
+      justifyContent: "space-evenly",
+      margin:20, 
     },
     navItem: {
       flex: 1,
